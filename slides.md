@@ -13,7 +13,7 @@ duration: 35min
 # SITCON 2027<br>開發組零籌
 
 ---
-layout: intro
+layout: default
 ---
 
 # 這場會的目的
@@ -28,7 +28,7 @@ layout: intro
 -->
 
 ---
-layout: default
+layout: intro
 ---
 
 # 自我介紹
