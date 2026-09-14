@@ -1,0 +1,41 @@
+.sitcon-frame {
+  font-family: var(--sitcon-font-sans);
+  font-size: 22px;
+  line-height: 1.55;
+  color: var(--sitcon-text);
+  text-rendering: optimizeLegibility;
+}
+.sitcon-frame :where(h1, h2, h3, h4, h5, h6) {
+  color: inherit;
+  font-weight: 800;
+  line-height: 1.18;
+  text-wrap: balance;
+}
+.sitcon-frame :where(h1) { font-size: 42px; letter-spacing: -.035em; margin: 0 0 24px; }
+.sitcon-frame :where(h2) { font-size: 30px; margin: 0 0 16px; }
+.sitcon-frame :where(h3) { font-size: 25px; margin: 0 0 12px; }
+.sitcon-frame :where(h4, h5, h6) { font-size: 22px; margin: 0 0 12px; }
+.sitcon-frame :where(p) { margin: 0 0 18px; }
+.sitcon-frame :where(ul, ol) { margin: 0 0 20px; padding-left: 1.25em; }
+.sitcon-frame :where(ul) { list-style: square; }
+.sitcon-frame :where(ol) { list-style: decimal; }
+.sitcon-frame :where(li) { margin-block: 8px; padding-left: .15em; }
+.sitcon-frame :where(li)::marker { color: var(--sitcon-accent); }
+.sitcon-frame :where(strong) { font-weight: 800; }
+.sitcon-frame :where(a) { color: var(--sitcon-accent); text-decoration: underline; text-underline-offset: 5px; }
+.sitcon-frame :where(a):hover { text-decoration-thickness: 2px; }
+.sitcon-frame :where(a, button):focus-visible { outline: 3px solid var(--sitcon-coral); outline-offset: 4px; }
+.sitcon-frame :where(blockquote) { border-left: 4px solid var(--sitcon-accent); padding-left: 24px; margin: 24px 0; }
+.sitcon-frame :where(blockquote p:last-child) { margin-bottom: 0; }
+.sitcon-frame :where(code, pre, kbd) { font-family: var(--sitcon-font-mono); }
+.sitcon-frame :where(:not(pre) > code) { font-size: .85em; background: var(--slidev-code-background); padding: 2px 5px; }
+.sitcon-frame :where(pre) { font-size: 15px; line-height: 1.6; border: 1px solid var(--sitcon-line); padding: 18px; border-radius: 0; }
+.sitcon-frame :where(table) { width: 100%; border-collapse: collapse; font-size: 19px; }
+.sitcon-frame :where(th, td) { text-align: left; padding: 12px 16px 12px 0; border-bottom: 1px solid var(--sitcon-line); }
+.sitcon-frame :where(th) { font-weight: 800; }
+.sitcon-frame :where(kbd) { font-size: .8em; border: 1px solid var(--sitcon-line); border-bottom-width: 2px; padding: 2px 6px; }
+.sitcon-frame :where(hr) { border: 0; border-top: 1px solid var(--sitcon-line); margin: 24px 0; }
+.sitcon-frame .sitcon-eyebrow { color: var(--sitcon-accent); font-size: 16px; font-weight: 800; letter-spacing: .06em; margin: 0 0 20px; }
+.sitcon-frame .sitcon-muted { color: var(--sitcon-muted); }
+.sitcon-frame .sitcon-caption { color: var(--sitcon-muted); font-size: 15px; }
+.sitcon-frame .sitcon-content > :last-child { margin-bottom: 0; }

@@ -1,0 +1,55 @@
+/* Source: https://sitcon.org/2027/ (September 2026). Public override API. */
+@font-face {
+  font-family: 'LINE Seed TW';
+  src: url('../assets/fonts/LINESeedTW_OTF_Rg.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'LINE Seed TW';
+  src: url('../assets/fonts/LINESeedTW_OTF_Eb.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --sitcon-ink: #101312;
+  --sitcon-ink-soft: #181c1a;
+  --sitcon-paper: #f2efe5;
+  --sitcon-paper-deep: #ded9cc;
+  --sitcon-mist: #dce5df;
+  --sitcon-acid: #c9ff3d;
+  --sitcon-coral: #ff625b;
+  --sitcon-blue: #7d88ff;
+  --sitcon-font-sans: 'LINE Seed TW', 'Noto Sans TC', system-ui, sans-serif;
+  --sitcon-font-mono: 'SFMono-Regular', Consolas, monospace;
+  --sitcon-space-x: 56px;
+  --sitcon-space-y: 36px;
+  --sitcon-column-gap: 40px;
+  --slidev-theme-primary: #475a4d;
+}
+.sitcon-frame {
+  --sitcon-surface: var(--sitcon-paper);
+  --sitcon-text: var(--sitcon-ink);
+  --sitcon-muted: #4c5c52;
+  --sitcon-accent: #475a4d;
+  --sitcon-line: #10131238;
+  --slidev-code-background: #e7e4da;
+  --slidev-code-foreground: var(--sitcon-ink);
+}
+.sitcon-frame[data-tone='dark'] {
+  --sitcon-surface: var(--sitcon-ink);
+  --sitcon-text: var(--sitcon-paper);
+  --sitcon-muted: #c1c8c2;
+  --sitcon-accent: var(--sitcon-acid);
+  --sitcon-line: #f2efe538;
+  --slidev-code-background: var(--sitcon-ink-soft);
+  --slidev-code-foreground: var(--sitcon-paper);
+}
+.sitcon-frame[data-tone='mist'] { --sitcon-surface: var(--sitcon-mist); }
+.sitcon-frame[data-tone='acid'] {
+  --sitcon-surface: var(--sitcon-acid);
+  --sitcon-accent: var(--sitcon-ink);
+  --sitcon-muted: #344313;
+}

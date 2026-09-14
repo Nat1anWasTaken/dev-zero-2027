@@ -1,0 +1,49 @@
+{
+  "name": "slidev-theme-sitcon-2027",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Reusable Slidev theme based on SITCON 2027's visual language",
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "sitcon"
+  ],
+  "files": [
+    "components",
+    "layouts",
+    "styles",
+    "assets",
+    "README.md"
+  ],
+  "engines": {
+    "slidev": ">=52.0.0"
+  },
+  "peerDependencies": {
+    "@slidev/cli": "^52.0.0",
+    "vue": "^3.5.0"
+  },
+  "slidev": {
+    "colorSchema": "light",
+    "defaults": {
+      "aspectRatio": "16/9",
+      "canvasWidth": 980,
+      "fonts": {
+        "sans": "LINE Seed TW, Noto Sans TC, sans-serif",
+        "mono": "SFMono-Regular, Consolas, monospace",
+        "local": [
+          "LINE Seed TW",
+          "Noto Sans TC",
+          "SFMono-Regular",
+          "Consolas"
+        ],
+        "provider": "none"
+      },
+      "themeConfig": {
+        "brand": "SITCON",
+        "year": "2027",
+        "footer": "學生計算機年會",
+        "showPageNumber": true
+      }
+    }
+  }
+}
