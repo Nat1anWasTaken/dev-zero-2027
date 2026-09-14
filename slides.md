@@ -40,7 +40,7 @@ backgroundSize: contain
 
 # 小幫手！Wolf
 
-- 因為組長今年也是年會副召
+- 因為組長 Nathan 今年也是年會副召
 - Wolf 會是我們的小幫手
 - 會幫忙一起追進度！
 
