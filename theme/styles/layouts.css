@@ -17,7 +17,7 @@
 }
 .sitcon-header { border-bottom: 1px solid var(--sitcon-line); padding-bottom: 14px; gap: 24px; }
 .sitcon-brand { font-size: 19px; font-weight: 800; letter-spacing: -.035em; white-space: nowrap; }
-.sitcon-brand > span { color: var(--sitcon-accent); margin-left: 8px; font-size: 15px; }
+.sitcon-brand > span { color: var(--sitcon-accent); margin-left: 8px; }
 .sitcon-label { color: var(--sitcon-muted); }
 .sitcon-body { flex: 1; min-height: 0; padding-block: 30px 20px; }
 .sitcon-footer { color: var(--sitcon-muted); border-top: 1px solid var(--sitcon-line); padding-top: 10px; gap: 24px; }
