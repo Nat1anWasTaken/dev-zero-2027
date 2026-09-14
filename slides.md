@@ -254,6 +254,26 @@ caption: NTag 活動規劃工作項目
 -->
 
 ---
+layout: image-right
+image: /images/stone.png
+alt: 小石
+backgroundSize: contain
+caption: 小石
+---
+
+# 善用小石與 AI
+
+今年的籌備群有一隻聰明的小石，他可以：
+- 用它開卡片、讀卡片
+- 用它讀、找以往的文件
+- Google Drive、HackMD、GitLab 皆有整合
+
+<!--
+行政組 Yuan 今年有一隻聰明的小石；遇到問題時，大家可以先試著問問它。
+除了小石，也鼓勵大家善用適合自己的 AI 工具，讓重複性的工作更有效率。
+-->
+
+---
 layout: default
 ---
 
