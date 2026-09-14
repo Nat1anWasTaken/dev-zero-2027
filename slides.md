@@ -56,7 +56,6 @@ backgroundSize: contain
 
 <!--
 因為你們的組長同時也是今年年會的副召，所以請 Wolf 擔任開發組小幫手，一起追進度。
-頭像來源：Gravatar，使用 me@wolf-yuan.dev 對應的頭像，擷取於 2026-09-14。
 -->
 
 ---
@@ -96,8 +95,7 @@ layout: two-cols-header
 </style>
 
 <!--
-介紹開發組常用的兩個工具，搭配畫面帶大家認識。
-圖片使用專案既有素材：public/images/gitlab-work-items.png、public/images/github.png。
+介紹開發組最常用的兩個工具，剩下的像是 Google Drive、HackMD 等請自己去看新人手冊
 -->
 
 ---
@@ -151,7 +149,6 @@ layout: default
 
 <!--
 這是開發組整個籌備週期的四個主要專案。月份是目前預估，開始時間取決於其他組提供規範、資訊、主視覺和活動規劃。
-接下來逐一介紹。
 -->
 
 ---
@@ -174,7 +171,7 @@ Call for Paper
 <!--
 在 SITCON 中的任何地方聽到有人說「CFP」，指的就是徵稿網站。
 歷年參考：https://sitcon.org/2026/cfp/、https://sitcon.org/2025/cfp/
-截圖來源：https://sitcon.org/2026/cfp/，擷取於 2026-09-14。
+截圖來源：https://sitcon.org/2026/cfp/
 -->
 
 ---
@@ -199,7 +196,6 @@ Call for Sponsor
 在 SITCON 中聽到「CFS」，指的就是贊助徵求網站。
 以往 CFS 幾乎都是 PDF 贊助徵求書，2026 年第一次轉為網站。
 因為去年的設計真的很好看，今年應該會復用它。開發組的工作大概是重新排列資訊流、改資料和顏色。Shout out to 毛哥！
-截圖來源：https://sitcon.org/2026/cfs/，擷取於 2026-09-14。
 -->
 
 ---
@@ -223,7 +219,6 @@ caption: SITCON 2026 年會主網站
 在徵稿期結束後，https://sitcon.org 才會換成年會主網站。
 主網站主要展示年會的主題、關於 SITCON 自己的一些資訊，還有最重要的議程表。
 歷年參考：https://sitcon.org/2026/、https://sitcon.org/2025/
-截圖來源：https://sitcon.org/2026/，擷取於 2026-09-14。
 -->
 
 ---
@@ -248,9 +243,8 @@ caption: NTag 活動規劃工作項目
 為了增進會眾與年會各種設施、機制的互動，我們有大地遊戲這個酷東西。
 以往幾乎都以 PWA 形式存在，今年想嘗試引入 NFC 貼紙，並做成手機 App。
 今年收進來的應該有些 Flutter 人才，嘻嘻。
-至少 12 月需要送審，組長會去要 OCF 的帳號。
-截圖來源：https://gitlab.com/sitcon-tw/2027/-/work_items/89，擷取於 2026-09-14。
-工作項目目前另列 App 製作為 9/18–10/16、Spec 製作為 8/28–9/30；投影片保留本次零籌原稿的概略起始月份，實際排程以團隊確認為準。
+App Store: 組長會去要 OCF 賬號
+Play Store: 開在共同創辦人 Denny 底下
 -->
 
 ---
@@ -270,7 +264,7 @@ caption: 小石
 
 <!--
 行政組 Yuan 今年有一隻聰明的小石；遇到問題時，大家可以先試著問問它。
-除了小石，也鼓勵大家善用適合自己的 AI 工具，讓重複性的工作更有效率。
+除了小石，也鼓勵大家善用適合自己的 AI 工具，今年只要你知道你在做什麼，完全不限制任何 AI 使用
 -->
 
 ---
