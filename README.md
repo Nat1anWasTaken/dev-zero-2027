@@ -1,5 +1,9 @@
 # SITCON 2027 開發組零籌
 
+## About this deck
+
+This Slidev deck supports SITCON 2027 開發組的第一次籌備會議。它用來讓新成員認識彼此與開發組的協作方式，介紹日常使用的 GitLab、GitHub 等工具，並說明 CFP、CFS、年會主網站與大地遊戲等年度專案的時程和分工。
+
 To start the presentation:
 
 - `pnpm install`
@@ -9,6 +13,10 @@ To start the presentation:
 Edit the [slides.md](./slides.md) to see the changes.
 
 Learn more about Slidev at the [documentation](https://sli.dev/).
+
+## Deployment
+
+Pushing to `main` automatically builds and deploys the deck to GitHub Pages. Before the first deployment, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions** in the GitHub repository.
 
 ## Reusable theme
 
